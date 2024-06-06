@@ -10,8 +10,8 @@
 }
 
 :root {
-	--secondery: #253d4e;
-	--acent: #ffe500;
+	--secondery: #1c0221;
+	--acent: #ffbfb7;
 	--text-xxxs: clamp(0.5786rem, 0.5656rem + 0.0652vi, 0.6243rem);
 	--text-xxs: clamp(0.6174rem, 0.5931rem + 0.1213vi, 0.7023rem);
 	--text-xs: clamp(0.6588rem, 0.6212rem + 0.1877vi, 0.7901rem);
@@ -157,7 +157,17 @@ body {
 }
 
 .daily-deals-container {
-	background: #e40e0e;
+	/* background: #e40e0e; */
+
+	/* background: rgb(28,2,33); */
+	/* background: linear-gradient(-45deg, rgba(28,2,33,1) 0%, rgba(255,191,183,1) 100%); */
+	background: linear-gradient(
+		45deg,
+		rgba(28, 2, 33, 1) 0%,
+		rgba(255, 191, 183, 1) 50%,
+		rgba(28, 2, 33, 1) 100%
+	);
+
 	padding: 8px 14px 14px 14px;
 }
 
@@ -770,6 +780,12 @@ body {
 	display: grid;
 	grid-auto-flow: row;
 	background: #d9e1fb;
+	background: linear-gradient(
+		90deg,
+		rgba(28, 2, 33, 1) 0%,
+		rgba(255, 191, 183, 1) 50%,
+		rgba(28, 2, 33, 1) 100%
+	);
 }
 
 .clearence-img-btn {
