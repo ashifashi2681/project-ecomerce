@@ -19,7 +19,7 @@
 }
 
 .footer-logo img {
-	width: 305px;
+	width: 180px;
 }
 
 .footer-text {
@@ -186,7 +186,7 @@
 
 @media (max-width: 900px) {
 	.footer-logo img {
-		width: 226px;
+		width: 155px;
 	}
 
 	.footer-text span:nth-child(2) {

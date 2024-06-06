@@ -48,7 +48,7 @@
 #nav-bar {
 	width: 100%;
 	background: var(--secondery);
-	/* padding-top: 15px; */
+	padding-top: 15px;
 	/* overflow: hidden; */
 	position: fixed;
 	top: 0;
@@ -67,7 +67,7 @@
 }
 
 .logo img {
-	width: 230px;
+	width: 120px;
 }
 
 .search {
@@ -360,7 +360,7 @@
 @media (max-width: 900px) {
 	/* nav top */
 	.logo img {
-		width: 174px;
+		width: 110px;
 	}
 
 	.search input {
@@ -383,7 +383,7 @@
 @media (max-width: 768px) {
 	/* nav bar top */
 	.logo img {
-		width: 140px;
+		width: 100px;
 	}
 
 	.search input {

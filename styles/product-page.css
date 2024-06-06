@@ -464,6 +464,10 @@ body {
 	border-left: 1px solid #363636;
 }
 
+.product-page-assured  {
+	width: 90px;
+}
+
 .product-page-assured > img {
 	width: 100%;
 }

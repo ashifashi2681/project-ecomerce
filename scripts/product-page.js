@@ -91,7 +91,7 @@ productCard.forEach((productCard, index) => {
 // const productPriceText = document.querySelector(
 // 	".product-page-price > span"
 // ).innerHTML;
-// const productPrice = productPriceText.replace("AED", "");
+// const productPrice = productPriceText.replace("USD", "");
 
 /* user review images section */
 var swiper = new Swiper(".userImageSlider", {
